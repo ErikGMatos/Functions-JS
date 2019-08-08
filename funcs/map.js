@@ -1,5 +1,5 @@
 // MAP
-const { passengers, queroBolsa } = require("../data");
+const { passengers, quero } = require("../data");
 
 // 1. Quantos anos eles tem?
 const newPassergers = passengers.map(
@@ -18,7 +18,7 @@ const founds = passengers.map(passenger => {
 });
 
 const list=[];
-const foundsCity = queroBolsa.map(city => {
+const foundsCity = quero.map(city => {
   if(list.includes(city.campus.city)) return
   list.push(city.campus.city);
 });

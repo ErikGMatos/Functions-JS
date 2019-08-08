@@ -1,8 +1,8 @@
 // MAP
-const {  queroBolsa } = require("../data");
+const {  quero } = require("../data");
 
 //salva 
-localStorage.setItem('list', JSON.stringify(queroBolsa))
+localStorage.setItem('list', JSON.stringify(quero))
 
 //busca 
 JSON.parse(localStorage.getItem('list'))

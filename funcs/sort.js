@@ -1,5 +1,5 @@
 // SORT
-const { shopCart, passengers, queroBolsa } = require("../data");
+const { shopCart, passengers, quero } = require("../data");
 // 1. Organize o carrinho do maior número de produtos para o menor
 const orderByTotalProducts = shopCart.sort((a, b) => b.quantity - a.quantity);
 
@@ -10,7 +10,7 @@ const orderByPassengerName = passengers.sort((pa, pb) => {
   return 0;
 });
 
-const orderByCourseName = queroBolsa.sort((pa, pb) => {
+const orderByCourseName = quero.sort((pa, pb) => {
     if (pa.university.name.toLocaleLowerCase() < pb.university.name.toLocaleLowerCase()) return -1;
     if (pa.university.name.toLocaleLowerCase() > pb.university.name.toLocaleLowerCase()) return 1;
     return 0;

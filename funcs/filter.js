@@ -1,5 +1,5 @@
 // FILTER
-const { childrenAge, mailList, queroBolsa } = require("../data");
+const { childrenAge, mailList, quero } = require("../data");
 
 // 1. Crianças entre 2 - 11 anos
 
@@ -10,7 +10,7 @@ const childrenFiltered = childrenAge.filter(
 // 2. Emails rocketseat.com.br
 const filteredMails = mailList.filter(mail => mail.includes("@rocketseat.com"));
 
-const listCity = queroBolsa.filter(city => {
+const listCity = quero.filter(city => {
 
 });
 

@@ -18,7 +18,7 @@ module.exports = {
     { name: "Natan", birthYear: 2001 },
     { name: "Ana", birthYear: 1995 }
   ],
-  queroBolsa: [
+  quero: [
     {
       university: {
         name: "UNIP",
